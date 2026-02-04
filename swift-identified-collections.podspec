@@ -21,4 +21,5 @@ Pod::Spec.new do |s|
   s.exclude_files = "Sources/IdentifiedCollections/Documentation.docc/**"
 
   s.dependency "swift-collections", "~> 1.1"
+  s.dependency "OrderedCollections", "~> 1.0.2"
 end
